@@ -1,0 +1,63 @@
+/* Monthly-Exam 1 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color:#0A1020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-parent{
+ width: 100%;
+ max-width: 90%;
+ padding: 20px;
+}
+
+.content-section{
+width: 100%;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 14px;
+margin: 50px auto;
+border-radius: 14px;
+background: radial-gradient(at left top ,#7C60FA 30%,#2BD7FB  );
+}
+
+button{
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #F1E8EE;
+  background-color: #0C1A27;
+}
+
+hr{
+  width: 100%;
+  height: 1px;
+  background-color: #4d516f;
+ border:none;
+}
+
+p{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer{
+  font-size: 15px;
+  color: #979BB7;
+  margin-top: 180px;
+}
