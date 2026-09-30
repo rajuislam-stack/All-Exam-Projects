@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+
+
+
+@layer base{
+
+  *{
+    @apply box-border m-2
+  }
+
+  h1{
+    @apply font-bold text-3xl 
+  }
+
+  h2{
+    @apply font-bold text-2xl
+  }
+
+  p{
+    @apply font-medium text-sm 
+  }
+
+  input{
+    @apply  border-2 border-gray-500 rounded p-1
+  }
+
+}
+
+
+@layer components{
+  .card{
+    @apply bg-white rounded-xl shadow-xl 
+  }
+
+  .cardList{
+    @apply grid grid-cols-1 md:grid-cols-4
+  }
+
+  .header{
+    @apply flex justify-between
+  }
+
+  .errorMessage{
+    @apply bg-red-200 rounded p-3
+  }
+}
